@@ -1,0 +1,2 @@
+# Rule-Engine-with-AST-Real-Time-Data-Processing-System-for-Weather-Monitoring-
+"This repository includes a Rule Engine using Abstract Syntax Tree (AST) for dynamic user eligibility evaluation and a Real-Time Weather Monitoring System. The Rule Engine allows flexible rule creation/modification, while the Weather System fetches, analyzes, and visualizes live weather data using the OpenWeatherMap API for Indian metros."
