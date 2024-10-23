@@ -18,8 +18,6 @@ Database: MongoDB (or your preferred database)
 API: RESTful API
 Other Tools: Abstract Syntax Tree (AST) parser
 
-git clone https://github.com/your-username/rule-engine-ast.git
-
 npm install
 
 npm start
