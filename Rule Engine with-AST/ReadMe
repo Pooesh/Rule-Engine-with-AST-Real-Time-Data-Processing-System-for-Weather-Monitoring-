@@ -1,1 +1,39 @@
 
+Overview
+This project is a 3-tier rule engine application designed to determine user eligibility based on attributes like age, department, income, experience, etc. The system uses an Abstract Syntax Tree (AST) to represent conditional rules, enabling dynamic creation, combination, and modification of these rules.
+
+Features
+Create rules: Generate an AST from a string representing logical conditions.
+Combine rules: Merge multiple rules into a single AST while optimizing for efficiency.
+Evaluate rules: Apply the generated AST on user data to evaluate if they match the rule conditions.
+Error handling: Detect invalid rules or data formats, and handle exceptions gracefully.
+Rule modification: Modify existing rules dynamically by changing operators, operands, or adding/removing conditions.
+Project Structure
+The project is organized into the following components:
+
+1. UI (Frontend)
+A simple user interface for users to input rules and visualize the AST.
+2. API (Backend)
+RESTful APIs to create rules, combine multiple rules, and evaluate them against user data.
+3. Database (Data Layer)
+Stores rules and application metadata in a database (e.g., SQLite, MongoDB).
+
+Prerequisites
+Python 3.x
+Libraries: Flask, re, json, SQLite (or other databases)
+pip install flask
+
+python app.py
+
+Testing
+To ensure the rule engine behaves as expected, you can run test cases:
+
+Test Case 1: Create and Evaluate Rule
+Create a rule using create_rule.
+Test the rule on sample user data using evaluate_rule.
+Test Case 2: Combine Multiple Rules
+Combine multiple rules using combine_rules.
+Evaluate the combined rule against user data.
+Test Case 3: Error Handling
+Provide an invalid rule or data and ensure the system raises appropriate errors.
+
